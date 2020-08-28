@@ -3,7 +3,7 @@ def introduction name
 
   end
 name = validates_exclusion_of
-def introduction_with_langugae
-  puts "Hi, my name is #{name}."
 
+def introduction(name)
+  puts "Hi, my name is #{name}."
 end
